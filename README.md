@@ -26,13 +26,17 @@ Bash
 
 CodeLearnPro/
 │
-├── index.html          
+
+├── index.html   
+
 ├── css/
-│   └── style.css       
+│   └── style.css     
+
 ├── js/
 │   ├── data.js         
 │   ├── GameEngine.js   
-│   └── main.js         
+│   └── main.js    
+
 └── docs/               
 
 🛠️ Installation and Running Instructions
