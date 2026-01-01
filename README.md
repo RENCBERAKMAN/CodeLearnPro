@@ -4,6 +4,8 @@ CodeLearn is an interactive and modular web application aimed at helping users b
 
 🌐 **Live Demo:** [rencberakman.com/hiztesti](https://www.rencberakman.com/hiztesti/)
 
+---
+
 ## 🚀 Project Architecture & Technical Details
 This project was built in accordance with modern web development standards using the **"Separation of Concerns"** principle.
 
@@ -12,8 +14,12 @@ This project was built in accordance with modern web development standards using
 * **Data Structure:** A JSON-based, expandable data set containing thousands of technical terms across 10 different categories.
 * **Technologies:** Vanilla JavaScript (Pure JS without frameworks), HTML5, CSS3.
 
-## ⚠️ Important: Why Does It Require a Server?
+---
+
+### ⚠️ Important: Why Does It Require a Server?
 The project features a modular system using `import/export` structures for code readability and maintainability. Due to the **CORS (Cross-Origin Resource Sharing)** security policies of modern browsers, ES6 modules cannot be run directly via the local file system (`file://`). A local server environment (XAMPP, VS Code Live Server, etc.) is required to test the project on your local computer.
+
+---
 
 ## 📁 File Structure
 
