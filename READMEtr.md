@@ -20,7 +20,7 @@ Teknolojiler: Vanilla Javascript (Frameworksüz Saf JS), HTML5, CSS3.
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
 ## 📁 Dosya Yapısı
-Bash
+```bash
 
 CodeLearnPro/
 │
