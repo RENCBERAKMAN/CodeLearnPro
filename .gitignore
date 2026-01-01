@@ -1,0 +1,21 @@
+# İşletim sistemi kalıntıları
+.DS_Store
+Thumbs.db
+
+# Düzenleyici (Editor) ayarları
+.vscode/
+.idea/
+
+# Yedek dosyalar ve geçici dosyalar
+*.tmp
+*.bak
+*.swp
+
+# Eğer ileride npm paketleri eklersen diye önlem
+node_modules/
+dist/
+build/
+
+# Log dosyaları
+*.log
+npm-debug.log*

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeLearn Pro | Hızlan ve Öğren</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <aside>
+        <div class="logo">
+            <span>//</span> CodeLearn
+        </div>
+
+        <div class="menu-label">Yazılım Temelleri</div>
+        <button class="nav-btn active" data-category="linux">🐧 Linux & Terminal</button>
+        <button class="nav-btn" data-category="english">🌐 Teknik İngilizce</button>
+        <button class="nav-btn" data-category="network">📡 Ağ (Network)</button>
+        <button class="nav-btn" data-category="cyber">🛡️ Siber Güvenlik</button>
+        
+        <div class="menu-label">Geliştirme</div>
+        <button class="nav-btn" data-category="web">🌐 Web Frontend</button>
+        <button class="nav-btn" data-category="js">⚡ Javascript</button>
+        <button class="nav-btn" data-category="python">🐍 Python & AI</button>
+        <button class="nav-btn" data-category="csharp">⚙️ C# .NET Core</button>
+        
+        <div class="menu-label">Veri & Operasyon</div>
+        <button class="nav-btn" data-category="sql">💾 SQL Veri Tabanı</button>
+        <button class="nav-btn" data-category="devops">🐳 DevOps & Cloud</button>
+    </aside>
+
+    <main>
+        <header>
+            <div class="header-title">
+                <span id="current-cat-title">Linux & Terminal</span>
+                <span class="header-badge" id="item-count-badge">Yükleniyor...</span>
+            </div>
+            
+            <div class="mode-selector">
+                <button class="time-btn" data-time="30">30s</button>
+                <button class="time-btn active" data-time="60">60s</button>
+                <button class="time-btn" data-time="infinity">∞ Limitsiz</button>
+            </div>
+        </header>
+
+        <div class="game-area">
+            
+            <div class="typing-container">
+                <div id="display-code"></div>
+                <input type="text" id="input-field" autocomplete="off" spellcheck="false">
+            </div>
+
+            <div class="instruction">
+                Yazarken komutun <span class="highlight">ne işe yaradığını</span> öğrenmeye odaklan.<br>
+                Silmek için Backspace tuşunu kullanabilirsin.
+            </div>
+
+            <div class="footer-stats">
+                <div class="stat-item">
+                    <span class="stat-val" id="timer-display">60</span>
+                    <span class="stat-label">Süre</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-val" id="wpm-display">0</span>
+                    <span class="stat-label">WPM</span>
+                </div>
+                <div class="stat-item">
+                    <button id="stop-endless-btn">Bitir</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal-overlay" id="result-modal">
+        <div class="modal-card">
+            <div class="modal-title">Egzersiz Tamamlandı!</div>
+            <div class="modal-grid">
+                <div class="m-box">
+                    <div class="m-val" id="modal-wpm">0</div>
+                    <div class="m-lbl">WPM (Hız)</div>
+                </div>
+                <div class="m-box">
+                    <div class="m-val" id="modal-acc">0%</div>
+                    <div class="m-lbl">Doğruluk</div>
+                </div>
+            </div>
+            <div class="modal-info">
+                Kategori: <span id="modal-cat">Linux</span>
+            </div>
+            <button class="btn-primary" id="restart-btn">Tekrar Et</button>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
