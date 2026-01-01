@@ -1,5 +1,7 @@
 💻 CodeLearn - Advanced Software Education & Speed Typing Platform
-CodeLearn is an interactive and modular web application aimed at helping users both increase their typing speed and learn software terminology (Linux, Cybersecurity, Coding, etc.). Unlike standard speed typing tools, it aims to instantly teach the user the function of every technical command they type.
+CodeLearn is an interactive and modular web application aimed at helping users both increase 
+their typing speed and learn software terminology (Linux, Cybersecurity, Coding, etc.). Unlike standard 
+speed typing tools, it aims to instantly teach the user the function of every technical command they type.
 
 🌐 Live Demo: rencberakman.com/hiztesti
 🚀 Project Architecture & Technical Details
@@ -14,21 +16,25 @@ Data Structure: A JSON-based, expandable data set containing thousands of techni
 Technologies: Vanilla JavaScript (Pure JS without frameworks), HTML5, CSS3.
 
 ⚠️ Important: Why Does It Require a Server?
-The project features a modular system using import/export structures for code readability and maintainability. Due to the CORS (Cross-Origin Resource Sharing) security policies of modern browsers, ES6 modules cannot be run directly via the local file system (file://). A local server environment (XAMPP, VS Code Live Server, etc.) is required to test the project on your local computer.
+The project features a modular system using import/export structures for code readability and maintainability. 
+Due to the CORS (Cross-Origin Resource Sharing) security policies of modern browsers, ES6 modules cannot be run 
+directly via the local file system (file://). A local server environment (XAMPP, VS Code Live Server, etc.) is 
+required to test the project on your local computer.
 
 📁 File Structure
 Bash
 
 CodeLearnPro/
 │
-├── index.html          # Main entry page and UI skeleton
+├── index.html          
 ├── css/
-│   └── style.css       # Visual design, glass effect, and animations
+│   └── style.css       
 ├── js/
-│   ├── data.js         # Extensive data set for technical categories
-│   ├── GameEngine.js   # Core logic, WPM, and statistics engine
-│   └── main.js         # DOM management and event listeners (Controller)
-└── docs/               # System analysis, class diagrams, and documentations
+│   ├── data.js         
+│   ├── GameEngine.js   
+│   └── main.js         
+└── docs/               
+
 🛠️ Installation and Running Instructions
 You can use one of the following methods to run the project in your local environment:
 
@@ -56,4 +62,5 @@ Performance Analysis: A detailed success report based on accuracy rate and WPM a
 Educational Documents: Academic documents regarding all analysis and design processes of the project are located in the docs/ folder.
 
 ✍️ Developer Note
-CodeLearn was developed with the vision that a developer's typing speed should be coordinated with their speed of thought. This application improves not only your speed but also your technical vision.
+CodeLearn was developed with the vision that a developer's typing speed should be coordinated with their speed of thought. 
+This application improves not only your speed but also your technical vision.
